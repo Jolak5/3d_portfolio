@@ -10,6 +10,7 @@ import { slideIn } from "../utils/motion";
 // service_ydlyut4
 // service_ydlyut4
 // Vc40CxBAbmhOOlWFF
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -28,16 +29,16 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_ydlyut4',
+      'service_dj4xeaa',
       'template_v7c8k13',
       {
         from_name: form.name,
         to_name: 'Kayode',
         from_email: form.email,
-        to_email: 'kayodej4@gamil.com',
+        to_email: 'Kayodej4@gamil.com',
         message: form.message
       },
-      'Vc40CxBAbmhOOlWFF'
+      'cu-tqkGRt0BTP1q3R'
 
     )
     .then(() => {
