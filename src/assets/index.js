@@ -29,9 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bookstore from "./bookstore.png";
+import rescue from "./rescue.png";
+import space from "./space.png";
 
 export {
   logo,
+  bookstore,
+  space,
+  rescue,
   backend,
   creator,
   mobile,
@@ -58,5 +64,5 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  tripguide
 };

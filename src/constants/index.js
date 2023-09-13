@@ -15,13 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
+  space,
   starbucks,
-  tesla,
+  bookstore,
+  rescue,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs
 } from "../assets";
 
@@ -183,30 +181,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bookstore",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React App where users can track their reading progress, add books.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient"
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient"
       },
       {
-        name: "tailwind",
+        name: "API",
         color: "pink-text-gradient"
       }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/"
+    image: bookstore,
+    source_code_link: "https://github.com/Jolak5/Bookstore",
+    live_project: "https://book-store-eamv.onrender.com/"
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Rescue Earth",
+    description: "React App where users can easily check covid 19 stats.",
     tags: [
       {
         name: "react",
@@ -217,33 +215,35 @@ const projects = [
         color: "green-text-gradient"
       },
       {
-        name: "scss",
-        color: "pink-text-gradient"
-      }
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/"
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient"
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient"
-      },
-      {
         name: "css",
         color: "pink-text-gradient"
       }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/"
+    image: rescue,
+    source_code_link: "https://github.com/Jolak5/to-do-list",
+    live_project: "https://jolak5.github.io/to-do-list/dist/index.html"
+  },
+  {
+    name: "Space Traveler",
+    description:
+      "React App where users can easily book and cancle private rocket reservations",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient"
+      },
+      {
+        name: "RestAPI",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: space,
+    source_code_link: "https://github.com/Jolak5/space-traveler-hub",
+    live_project: "https://space-mission-409j.onrender.com/"
   }
 ];
 
